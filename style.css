@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-transform: uppercase;
+    font-family: 'Chilanka', cursive;
+}
+.score-board{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+span{
+    text-align: center;
+    font-weight: bold;
+}
+#score{
+    margin-top: 7px;
+}
+h1{
+    color: #eb1736;
+    margin-top: 25px;
+    font-size: 30px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;   
+    border: solid black 2px;
+    align-items: center;
+    margin-top: 20px;
+}
+.images img{
+    width: 140px;
+    margin: 30px 20px;
+}
+.option button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 5px;
+    background-color: #9cb806;
+    color: black;
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+}
+.option button:hover{
+    background-color: chartreuse;
+}
