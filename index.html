@@ -3,30 +3,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Rock Paper Scissor </title>
+    <title>Rock Paper Scissor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="main">
         <h1>Rock Paper Scissor</h1>
-        <h3>Choose an option</h3>
         <div class="images">
-            <img id="user-image" src="images/r.png">
-            <img id="comp-image" src="images/s.png">
+            <img id="user-choice" src="images/p.png">
+            <img id="comp-choice" src="images/r.png">
         </div>
+        <h3>Choose Your Move</h3>
         <div class="option">
-            <button id="r">Rock 🤘</button>
-            <button id="p">Paper 📃</button>
-            <button id="s">Scissor ✂️</button>
+            <button id="r" onclick="ch(this)" value="r">Rock 🤘</button>
+            <button id="p" onclick="ch(this)" value="p">Paper 📃</button>
+            <button id="s" onclick="ch(this)" value="s">Scissor ✂️</button>
         </div>
     </div>
-    <div class="score-board">
-        <span id="result"></span>
-        <span id="score"></span>
-    </div>
+    <div id="result"> </div>
+    <div id="score"></div>
 </body>
 <script src="script.js"></script>
+
 </html>
